@@ -1,0 +1,226 @@
+<div
+  class="mt-20 mx-auto w-full max-w-xl p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700"
+>
+  <h1 class="font-semibold text-lg mb-4">Add New customer</h1>
+  <form class="space-y-6" [formGroup]="customerForm" (ngSubmit)="submit()">
+    <div class="relative z-0 w-full mb-6 group">
+      <input
+        formControlName="email"
+        type="email"
+        name="floating_email"
+        id="floating_email"
+        class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+        placeholder=" "
+        required
+      />
+      <label
+        for="floating_email"
+        class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+        >Email address *</label
+      >
+      <small
+        class="text-red-500"
+        *ngIf="
+          getControl('email')?.hasError('required') &&
+          getControl('email')?.touched
+        "
+      >
+        Email is required
+      </small>
+    </div>
+    <div class="grid md:grid-cols-2 md:gap-6">
+      <div class="relative z-0 w-full mb-6 group">
+        <input
+          formControlName="firstName"
+          type="text"
+          name="floating_first_name"
+          id="floating_first_name"
+          class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+          placeholder=" "
+          required
+        />
+        <label
+          for="floating_first_name"
+          class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+          >First name *</label
+        >
+        <small
+          class="text-red-500"
+          *ngIf="
+            getControl('firstName')?.hasError('required') &&
+            getControl('firstName')?.touched
+          "
+        >
+          First name is required
+        </small>
+      </div>
+      <div class="relative z-0 w-full mb-6 group">
+        <input
+          formControlName="lastName"
+          type="text"
+          name="floating_last_name"
+          id="floating_last_name"
+          class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+          placeholder=" "
+          required
+        />
+        <label
+          for="floating_last_name"
+          class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+          >Last name *</label
+        >
+        <small
+          class="text-red-500"
+          *ngIf="
+            getControl('lastName')?.hasError('required') &&
+            getControl('lastName')?.touched
+          "
+        >
+          Last name is required
+        </small>
+      </div>
+    </div>
+    <div class="grid md:grid-cols-2 md:gap-6">
+      <div class="relative z-0 w-full mb-6 group">
+        <input
+          formControlName="phone"
+          type="tel"
+          name="floating_phone"
+          id="floating_phone"
+          class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+          placeholder=" "
+          required
+        />
+        <label
+          for="floating_phone"
+          class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+          >Phone number *</label
+        >
+        <small
+          class="text-red-500"
+          *ngIf="
+            getControl('phone')?.hasError('required') &&
+            getControl('phone')?.touched
+          "
+        >
+          Phone number is required
+        </small>
+      </div>
+      <div class="relative z-0 w-full mb-6 group">
+        <input
+          formControlName="address"
+          type="text"
+          name="floating_company"
+          id="floating_company"
+          class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+          placeholder=" "
+          required
+        />
+        <label
+          for="floating_company"
+          class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+          >Address *</label
+        >
+        <small
+          class="text-red-500"
+          *ngIf="
+            getControl('address')?.hasError('required') &&
+            getControl('address')?.touched
+          "
+        >
+          Address is required
+        </small>
+      </div>
+    </div>
+    <div class="relative z-0 w-full mb-6 group">
+      <input
+        formControlName="amount"
+        type="number"
+        name="floating_amount"
+        id="floating_amount"
+        class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+        placeholder=" "
+        required
+      />
+      <label
+        for="floating_amount"
+        class="peer-focus:font-medium absolute text-sm text-gray-500 dark:text-gray-400 duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6"
+        >Amount *</label
+      >
+      <small
+        class="text-red-500"
+        *ngIf="
+          getControl('amount')?.hasError('required') &&
+          getControl('amount')?.touched
+        "
+      >
+        Amount is required
+      </small>
+      <small
+        class="text-red-500"
+        *ngIf="
+          getControl('amount')?.hasError('min') && getControl('amount')?.touched
+        "
+      >
+        Amount should be greater than 500.
+      </small>
+    </div>
+    <div class="grid md:grid-cols-2 md:gap-6">
+      <div class="relative z-0 w-full mb-6 group">
+        <select
+          formControlName="gender"
+          class="block py-2.5 px-0 w-full text-sm text-gray-500 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+        >
+          <option value="">Select Gender</option>
+          <option value="Female">Female</option>
+          <option value="Male">Male</option>
+        </select>
+        <small
+          class="text-red-500"
+          *ngIf="
+            getControl('gender')?.hasError('required') &&
+            getControl('gender')?.touched
+          "
+        >
+          Gender is required
+        </small>
+      </div>
+      <div class="relative z-0 w-full mb-6 group">
+        <select
+          formControlName="accountType"
+          class="block py-2.5 px-0 w-full text-sm text-gray-500 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"
+        >
+          <option value="">Account Type</option>
+          <option value="Savings">Savings</option>
+          <option value="Checking">Checking</option>
+        </select>
+      </div>
+      <small
+        class="text-red-500"
+        *ngIf="
+          getControl('accountType')?.hasError('required') &&
+          getControl('accountType')?.touched
+        "
+      >
+        Account type is required
+      </small>
+
+      <div class="relative z-0 w-full mb-6 group"></div>
+    </div>
+    <div class="flex flex-col sm:flex-row sm:justify-between">
+      <button
+        [disabled]="isLoading || !canSubmit()"
+        type="submit"
+        class="text-white bg-lime-600 hover:bg-lime-700 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 mb-2 sm:mb-0"
+      >
+        Add Customer
+      </button>
+      <button
+        routerLink="/"
+        class="text-lime-600 bg-slate-50 border-lime-600 hover:bg-slate-100 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-auto sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+      >
+        Cancel
+      </button>
+    </div>
+  </form>
+</div>

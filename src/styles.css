@@ -1,1 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.cdnfonts.com/css/credit-card");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

@@ -1,0 +1,172 @@
+{
+  "customers": [
+    {
+      "id": "2da6cbc8-3240-4bc8-b31c-60f62564fe37",
+      "accountNumber": "1234 5678 9012",
+      "firstName": "Reagan",
+      "lastName": "Courtese",
+      "email": "rcourtese0@clickbank.net",
+      "phone": "+1-555-555-1234",
+      "address": "886 Barby Point",
+      "amount": 5000,
+      "gender": "Male",
+      "accountType": "Checking"
+    },
+    {
+      "id": "c25605e0-429a-4ac2-8304-56a1b9819e37",
+      "firstName": "Pooh",
+      "lastName": "Maliphant",
+      "email": "pmaliphant1@illinois.edu",
+      "gender": "Male",
+      "address": "1 Ilene Road",
+      "accountNumber": "2345 6789 0123",
+      "accountType": "Checking",
+      "phone": "+1-555-555-2345",
+      "amount": 10000
+    },
+    {
+      "id": "ca32646f-e09e-462d-b1e5-76cd9eb16d87",
+      "firstName": "Charla",
+      "lastName": "Courteney",
+      "email": "ccourteney2@nih.gov",
+      "gender": "Genderfluid",
+      "address": "37 Dapin Point",
+      "accountNumber": "3456 7890 1234",
+      "accountType": "Savings",
+      "phone": "+1-555-555-3456",
+      "amount": 7500
+    },
+    {
+      "id": "7578e374-6dac-4410-9cfb-ef0ef1abb89d",
+      "firstName": "Bogey",
+      "lastName": "Stothard",
+      "email": "bstothard3@theatlantic.com",
+      "gender": "Male",
+      "address": "58 Pleasure Point",
+      "accountNumber": "4567 8901 2345",
+      "accountType": "Checking",
+      "phone": "+1-555-555-4567",
+      "amount": 20000
+    },
+    {
+      "id": "0074b69f-911e-4c79-b8bb-dbac982f5e1f",
+      "firstName": "Temple",
+      "lastName": "Roston",
+      "email": "troston4@ox.ac.uk",
+      "gender": "Male",
+      "address": "734 Fairview Center",
+      "accountNumber": "5678 9012 3456",
+      "accountType": "Savings",
+      "phone": "+1-555-555-5678",
+      "amount": 1000
+    },
+    {
+      "id": "98ea2b1b-e25f-47d9-b5c5-8c8b2b9199f4",
+      "firstName": "Felicity",
+      "lastName": "Dayton",
+      "email": "fdayton5@sohu.com",
+      "gender": "Female",
+      "address": "27553 Coleman Street",
+      "accountNumber": "6789 0123 4567",
+      "accountType": "Checking",
+      "phone": "+1-555-555-6789",
+      "amount": 15000
+    },
+    {
+      "id": "a6d48d15-4db1-47e5-9d33-f8545f4a6462",
+      "firstName": "Louella",
+      "lastName": "Felder",
+      "email": "lfelder6@macromedia.com",
+      "gender": "Female",
+      "address": "3 American Ash Terrace",
+      "accountNumber": "3124 5678 0912",
+      "accountType": "Checking",
+      "phone": "555-555-1212",
+      "amount": 100000
+    },
+    {
+      "id": "01a1e4e1-5e8a-4669-a4cb-03782bf30d7b",
+      "firstName": "Alfreda",
+      "lastName": "Bendon",
+      "email": "abendon7@e-recht24.de",
+      "gender": "Female",
+      "address": "5 Loomis Terrace",
+      "accountNumber": "4352 6789 2310",
+      "accountType": "Savings",
+      "phone": "555-555-1212",
+      "amount": 5000
+    },
+    {
+      "id": "0126e908-e7c5-40b3-8667-a40ade36eccb",
+      "firstName": "Sara",
+      "lastName": "Bischoff",
+      "email": "sbischoff8@chicagotribune.com",
+      "gender": "Female",
+      "address": "6239 Alpine Trail",
+      "accountNumber": "3456 9078 1234",
+      "accountType": "checking",
+      "phone": "555-555-1212",
+      "amount": 25000
+    },
+    {
+      "id": "67417258-560d-4467-bba4-c996d26abdab",
+      "firstName": "Dorie",
+      "lastName": "Glaister",
+      "email": "dglaister9@irs.gov",
+      "gender": "Female",
+      "address": "05239 Melvin Trail",
+      "accountNumber": "4567 0189 2345",
+      "accountType": "Savings",
+      "phone": "555-555-1212",
+      "amount": 750000
+    },
+    {
+      "id": "6ac848d6-05bf-4e69-ad67-86534107247c",
+      "firstName": "Lance",
+      "lastName": "Lynock",
+      "email": "llynocka@time.com",
+      "gender": "Male",
+      "address": "807 Montana Way",
+      "accountNumber": "6428 9012 1403",
+      "accountType": "Checking",
+      "phone": "555-555-1212",
+      "amount": 400000
+    },
+    {
+      "id": "6898a1b5-a105-4eb1-a5a6-c8307c969677",
+      "firstName": "Rudd",
+      "lastName": "Glinde",
+      "email": "rglindeb@virginia.edu",
+      "gender": "Male",
+      "address": "956 Mifflin Alley",
+      "accountNumber": "0212 7799 4539",
+      "accountType": "Savings",
+      "phone": "555-555-1212",
+      "amount": 1000000
+    },
+    {
+      "accountNumber": "2322 2696 3734",
+      "id": "00ef06f7-f5a4-4ccb-9a09-f0cfa292bb83",
+      "firstName": "Imane",
+      "lastName": "Boulouane",
+      "email": "imane.boulouane@ump.ac.ma",
+      "phone": "0634826397",
+      "address": "qods oujda maroc",
+      "amount": 780000,
+      "gender": "Female",
+      "accountType": "Savings"
+    },
+    {
+      "accountNumber": "5805 4836 9708",
+      "id": "cd3119b0-383e-427f-8183-bf8fc3b674aa",
+      "firstName": "toto",
+      "lastName": "toto",
+      "email": "imane.boulouane@ump.ac.ma",
+      "phone": "0634826397",
+      "address": "zeghanghane nador maroc",
+      "amount": 45784276,
+      "gender": "Female",
+      "accountType": "Checking"
+    }
+  ]
+}
