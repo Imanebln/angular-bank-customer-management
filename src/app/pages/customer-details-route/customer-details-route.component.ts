@@ -28,7 +28,6 @@ export class CustomerDetailsRouteComponent implements OnInit {
       .subscribe({
         next: (customer) => {
           this.customer = customer;
-          console.log(this.customer);
         },
         error: () => {
           this.router.navigate(['/not-found']);

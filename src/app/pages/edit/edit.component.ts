@@ -37,7 +37,6 @@ export class EditComponent implements OnInit {
       .subscribe({
         next: (customer) => {
           this.customer = customer;
-          console.log(this.customer);
 
           // Initialize form controls with customer values
           this.customerForm = this.formBuilder.group({
@@ -82,7 +81,6 @@ export class EditComponent implements OnInit {
       accountNumber: this.customer?.accountNumber,
       ...this.customerForm.value,
     };
-    console.log(updatedCustomer);
 
     this.customerService
       .updateCustomer(updatedCustomer)

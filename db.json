@@ -2,15 +2,15 @@
   "customers": [
     {
       "id": "2da6cbc8-3240-4bc8-b31c-60f62564fe37",
+      "accountNumber": "8197 9978 1329",
       "firstName": "Reagan",
-      "lastName": "Courtese",
+      "lastName": "Courtes",
       "email": "rcourtese0@clickbank.net",
-      "gender": "Male",
-      "amount": 785,
+      "phone": "+212775608628",
       "address": "886 Barby Point",
-      "phone": "+212775608626",
-      "accountType": "Savings",
-      "accountNumber": "8197 9978 1329"
+      "amount": 785000,
+      "gender": "Male",
+      "accountType": "Savings"
     },
     {
       "id": "c25605e0-429a-4ac2-8304-56a1b9819e37",
@@ -359,6 +359,18 @@
       "phone": "+212623511861",
       "accountType": "Savings",
       "accountNumber": "8201 4098 1480"
+    },
+    {
+      "accountNumber": "7799 8522 9502",
+      "id": "80a431e6-d9eb-4c96-8f87-b20a4dee0169",
+      "firstName": "Imane",
+      "lastName": "Boulouane",
+      "email": "boulouane.imane@gmail.com",
+      "phone": "0634826397",
+      "address": "qods oujda maroc",
+      "amount": 723000,
+      "gender": "Female",
+      "accountType": "Savings"
     }
   ]
 }
